@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1078095200225",
+    "project_id": "gospelcentreal",
+    "storage_bucket": "gospelcentreal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078095200225:android:18faf33ee59fbeeb2adca0",
+        "android_client_info": {
+          "package_name": "com.movieapp.gospeltv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqhmigRsTkn6ovXTCjtLFxWdtO52t2cMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078095200225:android:e5f802b9f8ab4cf42adca0",
+        "android_client_info": {
+          "package_name": "com.primeplay.faithflix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqhmigRsTkn6ovXTCjtLFxWdtO52t2cMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

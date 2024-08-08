@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FaithFlix</string>
+    <string name="you_are_online_now">Your Online</string>
+    <string name="you_are_offline_now">Sorry! Your offline. Try to connect to a network.</string>
+    <string name="setting">Settings\n</string>
+</resources>
