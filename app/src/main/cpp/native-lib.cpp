@@ -9,7 +9,7 @@
 
 // Function to detect logger apps by package name
 extern "C" JNIEXPORT jboolean JNICALL
-Java_com_primeplay_faithflix_VPNUtils_isLoggerAppInstalled(JNIEnv *env, jobject /* this */) {
+Java_com_primeplay_faithflix_Utils_isLoggerAppInstalled(JNIEnv *env, jobject /* this */) {
     jboolean loggerDetected = JNI_FALSE;
     const char* targetDir = "/data/data/";
 

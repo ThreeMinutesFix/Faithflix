@@ -1,20 +1,19 @@
 package com.primeplay.faithflix;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
 import android.net.Network;
 import android.net.NetworkCapabilities;
-import android.widget.Toast;
+import android.util.Base64;
 
+import java.io.UnsupportedEncodingException;
 import java.util.List;
 import java.util.regex.Pattern;
 
-public class VPNUtils {
+public class Utils {
 
     static Activity activity = new Activity();
 
@@ -23,7 +22,8 @@ public class VPNUtils {
     }
 
     public native boolean isLoggerAppInstalled();
-    public VPNUtils(Activity activity) {
+
+    public Utils(Activity activity) {
         this.activity = activity;
     }
 
@@ -56,5 +56,32 @@ public class VPNUtils {
         return false;
     }
 
+    public static String toBase64(String message) {
+        byte[] data;
+        try {
+            data = message.getBytes("UTF-8");
+            String base64Sms = Base64.encodeToString(data, Base64.NO_WRAP);
+            return base64Sms;
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    /**
+     * @param message the encoded message
+     * @return the decoded message
+     */
+    public static String fromBase64(String message) {
+        byte[] data = Base64.decode(message, Base64.NO_WRAP);
+        try {
+            return new String(data, "UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
 
 }

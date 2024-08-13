@@ -3,4 +3,17 @@
     <string name="you_are_online_now">Your Online</string>
     <string name="you_are_offline_now">Sorry! Your offline. Try to connect to a network.</string>
     <string name="setting">Settings\n</string>
+    <string name="close_app">Close App</string>
+    <string name="retry">Retry</string>
+    <string name="don_t_worry_our_best_minds_are_on_it_you_may_retry_or_check_back_later">Don\'t worry our best minds are on it. You may retry or check back later!</string>
+    <string name="connection_issue">Connection issue</string>
+    <string name="home">Home</string>
+    <string name="explorer">Explorer</string>
+    <string name="tv">TV</string>
+    <string name="favorite">Favorite</string>
+    <string name="account">Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="help_center">Help Center</string>
+    <string name="contact_faithflix_support">Contact FaithFlix Support</string>
 </resources>

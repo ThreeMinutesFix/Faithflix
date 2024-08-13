@@ -44,16 +44,34 @@ android {
 dependencies {
     implementation libs.materialdialog
     implementation libs.appcompat
+    implementation libs.roundedimageview
     implementation libs.material
     implementation libs.activity
     implementation libs.constraintlayout
+    implementation libs.media3.exoplayer.hls
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     implementation libs.okhttp
-    implementation 'com.google.firebase:firebase-config:22.0.0'
-    implementation 'com.google.firebase:firebase-firestore:25.0.0'
-    implementation 'com.google.firebase:firebase-database:21.0.0'
-    implementation 'com.google.firebase:firebase-analytics'
-    implementation platform('com.google.firebase:firebase-bom:33.1.2')
+    implementation libs.firebase.config
+    implementation libs.firebase.firestore
+    implementation libs.firebase.database
+    implementation libs.firebase.analytics
+    implementation platform(libs.firebase.bom)
     androidTestImplementation libs.espresso.core
+    implementation libs.volley
+    implementation libs.gson
+    implementation libs.java.jwt
+    implementation libs.nicebottombar
+    implementation libs.cardview
+    implementation libs.circleimageview
+    implementation libs.glide
+    implementation libs.viewpagerindicator
+    implementation libs.media3.exoplayer
+    implementation libs.media3.exoplayer.dash
+    implementation libs.media3.ui
+    implementation libs.nextlib.media3ext // To add media3 software decoders and extensions
+    implementation libs.nextlib.mediainfo
+    implementation libs.mediarouter
+    implementation libs.play.services.cast
+
 }

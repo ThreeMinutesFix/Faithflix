@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="faith_bg">#090E17</color>
+    <color name="btn_color_1">#4AB9FF</color>
+    <color name="btn_color_2">#0084F3</color>
+    <color name="back_bottom_color">#303D4F</color>
+    <color name="cardbg">#313C50</color>
+    <color name="btn_back">#0A2D4C</color>
+    <color name="gray_back">#696A6B</color>
+    <color name="Non_Selected">#9C9C9E</color>
 </resources>
